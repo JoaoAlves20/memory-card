@@ -8,19 +8,19 @@ O projeto foi desenvolvido para testar meus conhecimentos em HTML, CSS e JavaScr
 
 ## Página de Login
 
-![image](![alt text](image.png))
+![alt text](image.png)
 
 Basta colocar o seu nome e apertar o play, para o butom ser habilitado, é necessário escrever um nome com o mínimo de 3 caracteres.
 
 ## Página do Game
 
-![image](![alt text](image-1.png))
+![alt text](image-1.png)
 
 A página do jogo é bem simples de entender também, a partir do momento que for clicado em alguma dessas cartas, ela irá virar, e assim que juntar um dupla de cartas iguais, ela não virará mais e ficará cinzado, para o usuário entender que ele conseguiu.
 
 ## Página da vitória
 
-![image](![alt text](image-2.png))
+![alt text](image-2.png)
 
 Assim que conseguir achar todos os pares, o usuário será direcionado para a tela de vitória, com o nome do usuário colocado no login e os segundos que o usuário precisou utilizar. Logo abaixo terá um botão escrito "Retornar", assim que clicado, o usuário será direcionado a tela de Login!
 
