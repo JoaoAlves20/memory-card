@@ -6,4 +6,26 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+}
+
+.data {
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 30px;
+    padding: 50px;
+    border-radius: 5px;
+    transition: all 400ms ease;
+}
+
+.index {
+    padding: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+.index:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+    transition: 400ms ease;
 }
