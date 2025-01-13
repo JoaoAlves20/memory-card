@@ -4,19 +4,19 @@
 
 ## Sobre o projeto
 
-O projeto foi desenvolvido para testar meus conhecimentos em HTML, CSS e JavaScript, e ao mesmo tempo me divertir, por se tratar de um jogo da memória. O jogo foi construido com imagens de um dos seriados mais famosos, chamado Rick and Morty
+O projeto foi desenvolvido para testar meus conhecimentos em HTML, CSS e JavaScript, e ao mesmo tempo me divertir, por se tratar de um jogo da memória. O jogo foi construido com imagens de um dos seriados mais famosos, chamado Rick e Morty
 
 ## Página de Login
 
 ![alt text](image.png)
 
-Basta colocar o seu nome e apertar o play, para o butom ser habilitado, é necessário escrever um nome com o mínimo de 3 caracteres.
+Basta colocar o seu nome e apertar o play, e para o botão ser habilitado, é necessário escrever um nome com o mínimo de 3 caracteres.
 
 ## Página do Game
 
 ![alt text](image-1.png)
 
-A página do jogo é bem simples de entender também, a partir do momento que for clicado em alguma dessas cartas, ela irá virar, e assim que juntar um dupla de cartas iguais, ela não virará mais e ficará cinzado, para o usuário entender que ele conseguiu.
+A página do jogo é bem simples de entender também, a partir do momento que for clicado em alguma dessas cartas, ela irá virar, e assim que juntar uma dupla de cartas iguais, ela não virará mais e ficará cinzado, para o usuário entender que ele conseguiu achar o par.
 
 ## Página da vitória
 
