@@ -1,4 +1,6 @@
 const grid = document.querySelector(".grid");
+const spanPlayer = document.querySelector(".player");
+const timer = document.querySelector(".timer");
 
 const characters = [
     "beth", "jerry", "jessica", "morty",
@@ -14,7 +16,9 @@ function checkEndGame() {
 
     if (disabledCards.length === 20) {
         setTimeout(() => {
-            alert("Congratulations, you're very good in the game!")
+            clearInterval(this.loop);
+            localStorage.setItem("timer", timer.innerHTML);
+            window.location = "winner.html";
         }, 500);
     }
 };
@@ -90,4 +94,15 @@ function loadingGame() {
     });
 };
 
-loadingGame();
+function startTimer() {
+    this.loop = setInterval(() => {
+        const currentTime = +timer.innerHTML;
+        timer.innerHTML = currentTime + 1;
+    }, 1000);
+};
+
+window.onload = () => {
+    spanPlayer.innerHTML = localStorage.getItem("player");
+    startTimer()
+    loadingGame();
+}
